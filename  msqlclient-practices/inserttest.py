@@ -11,7 +11,6 @@ try:
         charset='utf8')
 
     # cursor 생성
-    # DictCursor: row 별로 dict 형태로 리스트로 담음 [{}, ..., {}]
     cursor = db.cursor()
 
 
